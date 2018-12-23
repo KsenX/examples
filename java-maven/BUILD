@@ -13,7 +13,7 @@ java_binary(
 )
 
 java_test(
-    name = "tests",
+    name = "tests2",
     srcs = glob(["src/test/java/com/example/myproject/*.java"]),
     test_class = "com.example.myproject.TestApp",
     deps = [
