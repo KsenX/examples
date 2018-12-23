@@ -57,8 +57,8 @@ object Build : BuildType({
         bazel {
             workingDir = "java-maven"
             command = "build"
-            targets = ":java-maven"
-            param("verbosity", "Verbose")
+            targets = ":java-maven"        
+            arguments = "--announce_rc"
         }
         bazel {
             workingDir = "java-maven"
