@@ -5,6 +5,7 @@ import org.junit.Test;
 
 /**
  * Tests for correct dependency retrieval with maven rules.
+ 
  */
 public class TestApp {
 
