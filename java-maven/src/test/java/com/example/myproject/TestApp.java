@@ -12,7 +12,7 @@ public class TestApp {
   @Test
   public void testCompare() throws Exception {
     App app = new App();
-    assertEquals("should return 0 when both numbers are equal", 0, app.compare(1, 1));
+    assertEquals("should return 0 when both numbers are equal", 0, app.compare(0, 1));
   }
 
 }
