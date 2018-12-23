@@ -18,7 +18,6 @@
       <runner id="RUNNER_13" name="" type="bazel">
         <parameters>
           <param name="command" value="build" />
-          <param name="startupOptions" value="--client_debug" />
           <param name="targets" value=":java-maven" />
           <param name="teamcity.build.workingDir" value="java-maven" />
           <param name="teamcity.step.mode" value="default" />
