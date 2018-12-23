@@ -52,6 +52,7 @@ object Build : BuildType({
         bazel {
             workingDir = "java-maven"
             command = "clean"
+            arguments = "--announce_rc"
         }
         bazel {
             workingDir = "java-maven"
